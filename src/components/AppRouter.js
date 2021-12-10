@@ -19,7 +19,7 @@ const AppRouter = () => {
                     <Route path={path} component={Component} />
                 )}
                 <Chat/>
-                <Redirect to={CHAT_ROUTE_PATH}/>
+                {/*<Redirect to={CHAT_ROUTE}/>*/}
             </Switch>
         )
         :
@@ -29,7 +29,7 @@ const AppRouter = () => {
                     <Route path={path} component={Component} />
                 )}
                 <Login/>
-                <Redirect to={LOGIN_ROUTE_PATH}/>
+                {/*<Redirect to={LOGIN_ROUTE}/>*/}
             </Switch>
         )
 };
