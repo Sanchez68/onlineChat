@@ -1,0 +1,33 @@
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.loaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.chatWrapper {
+    height: 90ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflowY: 'auto';
+    flex-direction: column;
+}
+
+.chatWindow {
+    margin-top: 10px;
+    width: 80%;
+    height: 80vh;
+    border: 2px solid gray;
+}
+.messageWrapper{
+
+}
+
