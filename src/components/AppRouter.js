@@ -16,10 +16,10 @@ const AppRouter = () => {
         (
             <Switch>
                 {privateRoutes.map(({path, Component}) =>
-                    <Route path={path} />
+                    <Route path={path} component={Component} />
                 )}
                 <Chat/>
-                {/*<Redirect to={CHAT_ROUTE}/>*/}
+                <Redirect to="/chat"/>
             </Switch>
         )
         :
@@ -29,7 +29,7 @@ const AppRouter = () => {
                     <Route path={path}  />
                 )}
                 <Login/>
-                {/*<Redirect to={LOGIN_ROUTE}/>*/}
+                <Redirect to="/login" />
             </Switch>
         )
 };
