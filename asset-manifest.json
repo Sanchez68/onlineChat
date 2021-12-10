@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactOnlineChat/static/css/main.1233d9b5.chunk.css",
-    "main.js": "/ReactOnlineChat/static/js/main.7161b0d6.chunk.js",
-    "main.js.map": "/ReactOnlineChat/static/js/main.7161b0d6.chunk.js.map",
-    "runtime-main.js": "/ReactOnlineChat/static/js/runtime-main.81c30222.js",
-    "runtime-main.js.map": "/ReactOnlineChat/static/js/runtime-main.81c30222.js.map",
-    "static/js/2.d4bec8b1.chunk.js": "/ReactOnlineChat/static/js/2.d4bec8b1.chunk.js",
-    "static/js/2.d4bec8b1.chunk.js.map": "/ReactOnlineChat/static/js/2.d4bec8b1.chunk.js.map",
-    "index.html": "/ReactOnlineChat/index.html",
-    "static/css/main.1233d9b5.chunk.css.map": "/ReactOnlineChat/static/css/main.1233d9b5.chunk.css.map",
-    "static/js/2.d4bec8b1.chunk.js.LICENSE.txt": "/ReactOnlineChat/static/js/2.d4bec8b1.chunk.js.LICENSE.txt"
+    "main.css": "/onlineChat/static/css/main.1233d9b5.chunk.css",
+    "main.js": "/onlineChat/static/js/main.7161b0d6.chunk.js",
+    "main.js.map": "/onlineChat/static/js/main.7161b0d6.chunk.js.map",
+    "runtime-main.js": "/onlineChat/static/js/runtime-main.dcf7d5a0.js",
+    "runtime-main.js.map": "/onlineChat/static/js/runtime-main.dcf7d5a0.js.map",
+    "static/js/2.cbc4662f.chunk.js": "/onlineChat/static/js/2.cbc4662f.chunk.js",
+    "static/js/2.cbc4662f.chunk.js.map": "/onlineChat/static/js/2.cbc4662f.chunk.js.map",
+    "index.html": "/onlineChat/index.html",
+    "static/css/main.1233d9b5.chunk.css.map": "/onlineChat/static/css/main.1233d9b5.chunk.css.map",
+    "static/js/2.cbc4662f.chunk.js.LICENSE.txt": "/onlineChat/static/js/2.cbc4662f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.81c30222.js",
-    "static/js/2.d4bec8b1.chunk.js",
+    "static/js/runtime-main.dcf7d5a0.js",
+    "static/js/2.cbc4662f.chunk.js",
     "static/css/main.1233d9b5.chunk.css",
     "static/js/main.7161b0d6.chunk.js"
   ]
