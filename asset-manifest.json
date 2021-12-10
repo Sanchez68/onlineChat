@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/onlineChat/static/css/main.1233d9b5.chunk.css",
-    "main.js": "/onlineChat/static/js/main.71f9ebd1.chunk.js",
-    "main.js.map": "/onlineChat/static/js/main.71f9ebd1.chunk.js.map",
+    "main.js": "/onlineChat/static/js/main.a22054b0.chunk.js",
+    "main.js.map": "/onlineChat/static/js/main.a22054b0.chunk.js.map",
     "runtime-main.js": "/onlineChat/static/js/runtime-main.dcf7d5a0.js",
     "runtime-main.js.map": "/onlineChat/static/js/runtime-main.dcf7d5a0.js.map",
     "static/js/2.cbc4662f.chunk.js": "/onlineChat/static/js/2.cbc4662f.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.dcf7d5a0.js",
     "static/js/2.cbc4662f.chunk.js",
     "static/css/main.1233d9b5.chunk.css",
-    "static/js/main.71f9ebd1.chunk.js"
+    "static/js/main.a22054b0.chunk.js"
   ]
 }
