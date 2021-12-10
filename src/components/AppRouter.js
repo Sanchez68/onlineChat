@@ -16,7 +16,7 @@ const AppRouter = () => {
         (
             <Switch>
                 {privateRoutes.map(({path, Component}) =>
-                    <Route path={path} component={Component} />
+                    <Route path={path} />
                 )}
                 <Chat/>
                 {/*<Redirect to={CHAT_ROUTE}/>*/}
@@ -26,7 +26,7 @@ const AppRouter = () => {
         (
             <Switch>
                 {publicRoutes.map(({path, Component}) =>
-                    <Route path={path} component={Component} />
+                    <Route path={path}  />
                 )}
                 <Login/>
                 {/*<Redirect to={LOGIN_ROUTE}/>*/}
