@@ -14,18 +14,18 @@ const AppRouter = () => {
         (
             <Switch>
                 {privateRoutes.map(({path, Component}) =>
-                    <Route path={path} component={Component} exact={true}/>
+                    <Route path={path} component={Component} />
                 )}
-                <Redirect to={CHAT_ROUTE}/>
+                <Redirect to='/onlineChat/login'/>
             </Switch>
         )
         :
         (
             <Switch>
                 {publicRoutes.map(({path, Component}) =>
-                    <Route path={path} component={Component} exact={true}/>
+                    <Route path={path} component={Component} />
                 )}
-                <Redirect to={LOGIN_ROUTE}/>
+                <Redirect to='/onlineChat/chat'/>
             </Switch>
         )
 };
