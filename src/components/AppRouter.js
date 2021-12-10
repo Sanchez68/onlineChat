@@ -1,10 +1,12 @@
 import React, {useContext} from 'react';
 import {Route, Switch} from "react-router-dom";
 import {privateRoutes, publicRoutes} from "../routes";
-import {CHAT_ROUTE, LOGIN_ROUTE} from "./utils/const";
+import {CHAT_ROUTE, CHAT_ROUTE_PATH, LOGIN_ROUTE, LOGIN_ROUTE_PATH} from "./utils/const";
 import Redirect from "react-router-dom/Redirect";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {Context} from "../index";
+import Chat from "./Chat";
+import Login from "./Login";
 
 
 const AppRouter = () => {
@@ -16,7 +18,8 @@ const AppRouter = () => {
                 {privateRoutes.map(({path, Component}) =>
                     <Route path={path} component={Component} />
                 )}
-                <Redirect to={CHAT_ROUTE}/>
+                <Chat/>
+                <Redirect to={CHAT_ROUTE_PATH}/>
             </Switch>
         )
         :
@@ -25,7 +28,8 @@ const AppRouter = () => {
                 {publicRoutes.map(({path, Component}) =>
                     <Route path={path} component={Component} />
                 )}
-                <Redirect to={LOGIN_ROUTE}/>
+                <Login/>
+                <Redirect to={LOGIN_ROUTE_PATH}/>
             </Switch>
         )
 };
