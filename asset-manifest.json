@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/onlineChat/static/css/main.1233d9b5.chunk.css",
-    "main.js": "/onlineChat/static/js/main.349a5f76.chunk.js",
-    "main.js.map": "/onlineChat/static/js/main.349a5f76.chunk.js.map",
+    "main.js": "/onlineChat/static/js/main.eeeb89e2.chunk.js",
+    "main.js.map": "/onlineChat/static/js/main.eeeb89e2.chunk.js.map",
     "runtime-main.js": "/onlineChat/static/js/runtime-main.dcf7d5a0.js",
     "runtime-main.js.map": "/onlineChat/static/js/runtime-main.dcf7d5a0.js.map",
-    "static/js/2.cbc4662f.chunk.js": "/onlineChat/static/js/2.cbc4662f.chunk.js",
-    "static/js/2.cbc4662f.chunk.js.map": "/onlineChat/static/js/2.cbc4662f.chunk.js.map",
+    "static/js/2.fbc703f6.chunk.js": "/onlineChat/static/js/2.fbc703f6.chunk.js",
+    "static/js/2.fbc703f6.chunk.js.map": "/onlineChat/static/js/2.fbc703f6.chunk.js.map",
     "index.html": "/onlineChat/index.html",
     "static/css/main.1233d9b5.chunk.css.map": "/onlineChat/static/css/main.1233d9b5.chunk.css.map",
-    "static/js/2.cbc4662f.chunk.js.LICENSE.txt": "/onlineChat/static/js/2.cbc4662f.chunk.js.LICENSE.txt"
+    "static/js/2.fbc703f6.chunk.js.LICENSE.txt": "/onlineChat/static/js/2.fbc703f6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dcf7d5a0.js",
-    "static/js/2.cbc4662f.chunk.js",
+    "static/js/2.fbc703f6.chunk.js",
     "static/css/main.1233d9b5.chunk.css",
-    "static/js/main.349a5f76.chunk.js"
+    "static/js/main.eeeb89e2.chunk.js"
   ]
 }
